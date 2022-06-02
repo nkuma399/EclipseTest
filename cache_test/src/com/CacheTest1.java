@@ -4,6 +4,7 @@ public class CacheTest1 {
 
 	public static void main(String[] args) {
 		
+		 // 1. initiate the cache with capacity 5 
 		       // 1. initiate the cache with capacity 5 
 				TimeAndSizeBasedEvictionCache<String, String> cache = new TimeAndSizeBasedEvictionCache<String, String>(5,1);
 
@@ -44,7 +45,8 @@ public class CacheTest1 {
 				// 8. print after adding one more object to cache after main thread sleep 
 				System.out.println("print after adding one more object to cache after main thread sleep");
 				cache.printCache();
-				
+				 // 1. initiate the cache with capacity 5 
+				// only value-7 is here
 	}
 	
 }
