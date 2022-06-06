@@ -4,9 +4,8 @@ public class CacheTest1 {
 
 	public static void main(String[] args) {
 		
-		// hi this is from git hub
+		
 		       // 1. initiate the cache with capacity 5 
-		//hi this is for test purpose
 				TimeAndSizeBasedEvictionCache<String, String> cache = new TimeAndSizeBasedEvictionCache<String, String>(5,1);
 
 				// 2. insert 5 objects to cache
