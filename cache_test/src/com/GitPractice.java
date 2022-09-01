@@ -7,6 +7,7 @@ public class GitPractice {
 		System.out.println("branch_2 created");
 		System.out.println("changes in branch_2 ");
 		System.out.println("changes from dev1");
+		System.out.println("test revert");
 
 	}
 
